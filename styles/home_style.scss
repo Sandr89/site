@@ -1,0 +1,124 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set Roboto font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style navigation links */
+.navigation {
+    background: linear-gradient(45deg, #4CAF50, #FFC107); /* Example gradient */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add padding */
+}
+
+.nav-links a {
+    display: inline-block;
+    background-color: #fff;
+    color: #04AA6D;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #ccc; /* Add thin outline */
+    border-radius: 5px; /* Add border radius */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer;
+    margin: 0 10px; /* Adjust margin */
+}
+
+.nav-links a:hover {
+    background-color: #036747; /* Darken background color on hover */
+    border-color: #04AA6D; /* Change outline color on hover */
+    color: white;
+}
+
+/* Style login button */
+.login-btn button {
+    background-color: #fff; /* Change background color */
+    color: #04AA6D; /* Change text color */
+    padding: 10px 20px; /* Adjust padding */
+    border: 1px solid #ccc; /* Add thin outline */
+    border-radius: 5px; /* Add border radius */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer;
+    margin: 0 10px; /* Adjust margin */
+}
+
+.login-btn button:hover {
+    background-color: #036747; /* Darken background color on hover */
+    border-color: #04AA6D; /* Change outline color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Style banner image */
+.banner {
+    background-color: #f2f2f2; /* Set the background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Adjust padding */
+}
+
+.banner img {
+    width: 30%; /* Adjust image width */
+    margin: 0 10px; /* Adjust gap between images */
+}
+
+.banner img:first-child,
+.banner img:last-child {
+    opacity: 0.7; /* Reduce opacity of side images */
+}
+
+/* Main content styles */
+.content {
+    padding: 20px;
+}
+
+/* Additional content styles */
+.additional-content {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.textbox {
+    flex: 0 0 calc(25% - 20px); /* Adjust width of text boxes */
+    background-color: #fff;
+    border: 1px solid #ccc; /* Add thin outline */
+    border-radius: 5px; /* Add border radius */
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin between text boxes */
+}
+
+.textbox h3 {
+    margin-bottom: 10px;
+}
+
+.textbox p {
+    font-size: 14px; /* Adjust font size */
+}
+
+/* Style footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(45deg, #4CAF50, #FFC107); /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px; /* Add margin between paragraphs */
+}
